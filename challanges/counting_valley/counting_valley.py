@@ -15,4 +15,3 @@ def counting_valleys(steps, path):
             valley += 1
     result= +1 if valley % 2 == 0 else round(valley / 2)
     print(result)
-counting_valleys(8,['U','D','D','D','U','D','U','U'])
